@@ -12,11 +12,16 @@ Les apprentis réalisent une application PHP, en POO, qui se va récupérer des 
 	○ Créez une base de données mySQL en localhost sur votre poste.
 
 	○ Importez les données se trouvant dans le fichier hockey_stats.sql.
+
 	○ Dans la partie serveur, remplacez le fichier serveur.php utilisé jusqu’à maintenant par plusieurs fichiers PHPo.
+
 	○ Respectez les demandes suivantes pour réaliser la partie serveur.
+
 		§ Seul le 1er fichier PHP (celui qui est appelé par le client) est un PHP non-objet (script), tous les autres fichiers PHP doivent être objets.
+
 		§ Les informations de connexion à la base de données doivent être définies une seule et unique fois dans un seul PHPo.
 		§ Créez des beans pour représenter les joueurs et les équipes
 
 		§ Créez une classe Wrk (responsable d'accéder à la base de données)
+
 		§ Créez une classe Ctrl (responsable d'appeler le worker et de mettre sous format XML les données récupérées)
