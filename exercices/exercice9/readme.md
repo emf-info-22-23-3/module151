@@ -10,9 +10,11 @@ La page index.html de l’exercice affiche la liste des employés d’une entrep
 Ainsi tant que l’utilisateur ne met pas le mot de passe « emf », le serveur devra retourner un message d’erreur. Dès que l’utilisateur sera logué, la liste des informations sera retournée.
  
 Sans être logué : 
+
 ![image](https://github.com/emf-info-151/module151/assets/48353440/53ec19d0-5fe7-441b-8bb5-a2a60a2b82d5)
 
-Après s’être logué
+Après s’être logué : 
+
 ![image](https://github.com/emf-info-151/module151/assets/48353440/7e1dcc3c-aef0-4edf-b72f-ec573bb4b18d)
 
 Le serveur PHP est responsable de contrôler si un utilisateur a le droit de voir une page. Les informations de login seront enregistrées dans la variable de session du serveur.
