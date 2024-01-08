@@ -23,5 +23,5 @@ Pour lire l’objet JSON se trouvant dans la valeur d’une case sélectionnée 
 	var valeur = select.options[select.selectedIndex].value;
 	var attribut = JSON.parse(valeur).<attribut que je souhaite lire>;
  
+![image](https://github.com/emf-info-151/module151/assets/48353440/ababd104-e75d-46c2-bf72-8fedfe0aed0c)
 
-![image](https://github.com/emf-info-151/module151/assets/48353440/c44c70bc-2d19-4585-9c7a-1532d77e848b)
