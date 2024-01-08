@@ -1,4 +1,4 @@
-# Exercice 6 - Extension PDO de PHP
+# Exercice 7 - Extension PDO de PHP
 
 ## Objectif
 L'extension PDO de PHP.
