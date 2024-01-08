@@ -7,9 +7,9 @@ Les apprentis replacent les différents éléments dans les parties client et se
 
 ## Travail à réaliser
 
-	• La partie cliente vous est donnée (voir le chapitre "Ressources"). Vous devez uniquement l’analyser et adapter l’URL de lien vers le serveur.
+• La partie cliente vous est donnée (voir le chapitre "Ressources"). Vous devez uniquement l’analyser et adapter l’URL de lien vers le serveur.
 	
-	• Créez un fichier PHP (serveur.php) qui contient le code suivant :
+• Créez un fichier PHP (serveur.php) qui contient le code suivant :
 	
   ```php
 <?php
@@ -21,5 +21,5 @@ Les apprentis replacent les différents éléments dans les parties client et se
 			echo '</equipes>';
 		?>
  ```
-	• Faites les adaptations nécessaires pour que lorsque le bouton « Affiche » est pressé, le client demande les données au serveur (fichier php) et l’affiche dans le tableau
- 	• Remplissez le diagramme sur OneNote
+• Faites les adaptations nécessaires pour que lorsque le bouton « Affiche » est pressé, le client demande les données au serveur (fichier php) et l’affiche dans le tableau
+ • Remplissez le diagramme sur OneNote
