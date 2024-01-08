@@ -14,14 +14,17 @@ Les apprentis mettent en œuvre le passage de paramètre depuis une application 
 	
 Pour ceci vous devrez utiliser l'élément SELECT qui se trouve sur la page.
 
-Pour ajouter un nouvel élément à la select :
+Pour ajouter un nouvel élément à la select : 
+```html
 	var select = document.getElementById("<nom de ma select>");
 	select.options[select.options.length] = new Option(<ce qui sera affiché>, <la valeur de la cellule>));
-	
+```	
 Pour lire l’objet JSON se trouvant dans la valeur d’une case sélectionnée :
+```html
 	var select = document.getElementById("<nom de ma select>");
 	var valeur = select.options[select.selectedIndex].value;
 	var attribut = JSON.parse(valeur).<attribut que je souhaite lire>;
- 
+ ```
+
 ![image](https://github.com/emf-info-151/module151/assets/48353440/ababd104-e75d-46c2-bf72-8fedfe0aed0c)
 
