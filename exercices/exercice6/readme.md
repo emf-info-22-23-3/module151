@@ -35,10 +35,11 @@ https://openclassrooms.com/fr/courses/1665806-programmez-en-oriente-objet-en-php
 	        }
 	}
 	?>
-``` 
+```
+
 Le code suivant utilise cette classe :
 
-```php	
+```php
 	<?php
 	include_once('Membre')
 	
