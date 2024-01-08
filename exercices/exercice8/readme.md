@@ -9,6 +9,7 @@ Les apprentis réalisent une application PHP, en POO, qui se va récupérer des 
 1. Repartez du résultat obtenu dans l’exercice "5. Passage de paramètres".
 	
 2. SANS TOUCHER LA PARTIE CLIENTE (Html, Javascript), à part pour l’appel du PHP, adaptez la partie SERVEUR de l’application pour aller lire les données dans une base de données mySQL.
+   
 	○ Créez une base de données mySQL en localhost sur votre poste.
 
 	○ Importez les données se trouvant dans le fichier hockey_stats.sql.
