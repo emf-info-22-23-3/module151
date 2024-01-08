@@ -1,4 +1,4 @@
-![image](https://github.com/emf-info-151/module151/assets/48353440/2f338d44-c8fe-430a-855b-446839b83998)# Exercice 9 - Login et session
+# Exercice 9 - Login et session
 
 ## Objectif
 Gestion des sessions en PHP
