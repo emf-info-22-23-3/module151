@@ -14,19 +14,4 @@ http://fr.openclassrooms.com/informatique/cours/concevez-votre-site-web-avec-php
      Accédez aux données en PHP avec PDO
      https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/914293-accedez-aux-donnees-en-php-avec-pdo
 	
-3. Voici une connexion à la base de données, veuillez le compléter pour que le PHP affiche tous les titres des jeux video (ces données sont issues de la colonne "titre" qui se trouve dans la table "jeux_video"):
-	
-	<?php
-	$bdd = new PDO('mysql:host=localhost;dbname=nomDB', 'root', 'pwd');
-	$reponse = …;
-	
-	
-	while (…)
-	{
-	
-	        …
-	
-	
-	}
-	$reponse->closeCursor();
-	?>
+3. Dans le fichier exercice7.php, vous trouverez une connexion à la base de données, veuillez le compléter pour que le PHP affiche tous les titres des jeux video (ces données sont issues de la colonne "titre" qui se trouve dans la table "jeux_video"):
