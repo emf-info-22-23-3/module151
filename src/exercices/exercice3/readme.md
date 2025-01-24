@@ -20,15 +20,3 @@ Diagramme de classe :
 Diagramme de séquence : 
 
 ![image](https://github.com/emf-info-151/module151/assets/48353440/95a0f1e5-70a0-4837-833d-6b648ee73f67)
-
-
-Astuce : 
-Créez un fichier "DockerFile" au même endroit que vos fichier PHP. C'est ce fichier qui va servir à créer le container. Dans notre cas, il y a plusieurs fichiers PHP, donc le DockerFile doit tous les copier (utiliser "." pour tout prendre dans le dossier courant). Le DockerFile ci-dessous fera l'affaire.
-  ```DockerFile
-# Utilisation de l'image PHP Apache
-FROM php:apache
-# Copier les fichiers de votre application dans le conteneur
-COPY . /var/www/html/
-# Exposer le port 80 du conteneur
-EXPOSE 80
-  ```
